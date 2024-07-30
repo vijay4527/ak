@@ -1,0 +1,101 @@
+.container {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.logout {
+  padding: 5px;
+  border: none;
+  background-color: #53c28b;
+  color: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.headerImage {
+  width: 100%;
+  max-width: unset;
+  display: inline-block;
+  /* left: -452.27px;
+    top: -6.2px; */
+  margin: 0px;
+}
+
+.title {
+  width: 357px;
+  height: 21px;
+  color: rgb(0, 0, 0);
+  font-size: 21px;
+  font-weight: bold;
+  font-family: Roboto;
+  font-style: normal;
+  display: inline-block;
+  right: 740px;
+  /* left: 489.53px; */
+  top: 28.267px;
+  line-height: 23.1px;
+  letter-spacing: 1px;
+  text-align: right;
+  position: absolute;
+  margin: 0px;
+}
+
+.sub-title {
+  width: 323px;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: normal;
+  font-family: Roboto Condensed;
+  font-style: normal;
+  display: inline-block;
+  /* left: 512.27px; */
+  top: 54.27px;
+  line-height: 20px;
+  text-align: right;
+  position: absolute;
+  margin: 0px;
+}
+
+
+.canvas-loading-btn{
+  width: 164px;
+  height: 34px;
+  background-color: rgb(233, 6, 6);
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 5px;
+  /* display: inline-flex; */
+  align-items: center;
+  /* left: 982.06px; */
+  top: 27.27px;
+  outline: none;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  padding: 0px;
+  position: absolute;
+  margin: 0px;
+  display: flex;
+    justify-content: center;
+    right: 400px;
+}  
+
